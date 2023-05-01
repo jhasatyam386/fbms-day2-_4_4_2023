@@ -7,15 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D33456D1407E458800705B98 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33456D0407E458800705B98 /* ViewController2.swift */; };
+		D33456D3407E463E00705B98 /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33456D2407E463E00705B98 /* MyTableViewCell.swift */; };
 		D335597929DBFB6500B2810D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D335597829DBFB6500B2810D /* AppDelegate.swift */; };
 		D335597B29DBFB6500B2810D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D335597A29DBFB6500B2810D /* SceneDelegate.swift */; };
 		D335597D29DBFB6500B2810D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D335597C29DBFB6500B2810D /* ViewController.swift */; };
 		D335598029DBFB6500B2810D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D335597E29DBFB6500B2810D /* Main.storyboard */; };
 		D335598229DBFB6600B2810D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D335598129DBFB6600B2810D /* Assets.xcassets */; };
 		D335598529DBFB6600B2810D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D335598329DBFB6600B2810D /* LaunchScreen.storyboard */; };
+		D335599829DBFC4900B2810D /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = D335598E29DBFC4800B2810D /* FMDatabasePool.m */; };
+		D335599929DBFC4900B2810D /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = D335599029DBFC4800B2810D /* FMResultSet.m */; };
+		D335599A29DBFC4900B2810D /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D335599229DBFC4800B2810D /* FMDatabaseAdditions.m */; };
+		D335599B29DBFC4900B2810D /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = D335599629DBFC4900B2810D /* FMDatabase.m */; };
+		D335599C29DBFC4900B2810D /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = D335599729DBFC4900B2810D /* FMDatabaseQueue.m */; };
+		D335599E29DBFC6000B2810D /* dbms.swift in Sources */ = {isa = PBXBuildFile; fileRef = D335599D29DBFC6000B2810D /* dbms.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D33456D0407E458800705B98 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		D33456D2407E463E00705B98 /* MyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
 		D335597529DBFB6500B2810D /* fbms day2 _4_4_2023.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "fbms day2 _4_4_2023.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D335597829DBFB6500B2810D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D335597A29DBFB6500B2810D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +34,19 @@
 		D335598129DBFB6600B2810D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D335598429DBFB6600B2810D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D335598629DBFB6600B2810D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D335598C29DBFC4700B2810D /* fbms day2 _4_4_2023-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "fbms day2 _4_4_2023-Bridging-Header.h"; sourceTree = "<group>"; };
+		D335598D29DBFC4800B2810D /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		D335598E29DBFC4800B2810D /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		D335598F29DBFC4800B2810D /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		D335599029DBFC4800B2810D /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		D335599129DBFC4800B2810D /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		D335599229DBFC4800B2810D /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		D335599329DBFC4800B2810D /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		D335599429DBFC4800B2810D /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		D335599529DBFC4800B2810D /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		D335599629DBFC4900B2810D /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		D335599729DBFC4900B2810D /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		D335599D29DBFC6000B2810D /* dbms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dbms.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +63,7 @@
 		D335596C29DBFB6400B2810D = {
 			isa = PBXGroup;
 			children = (
+				D33456D2407E463E00705B98 /* MyTableViewCell.swift */,
 				D335597729DBFB6500B2810D /* fbms day2 _4_4_2023 */,
 				D335597629DBFB6500B2810D /* Products */,
 			);
@@ -56,13 +80,27 @@
 		D335597729DBFB6500B2810D /* fbms day2 _4_4_2023 */ = {
 			isa = PBXGroup;
 			children = (
+				D335598F29DBFC4800B2810D /* FMDatabase.h */,
+				D335599629DBFC4900B2810D /* FMDatabase.m */,
+				D335599329DBFC4800B2810D /* FMDatabaseAdditions.h */,
+				D335599229DBFC4800B2810D /* FMDatabaseAdditions.m */,
+				D335599529DBFC4800B2810D /* FMDatabasePool.h */,
+				D335598E29DBFC4800B2810D /* FMDatabasePool.m */,
+				D335598D29DBFC4800B2810D /* FMDatabaseQueue.h */,
+				D335599729DBFC4900B2810D /* FMDatabaseQueue.m */,
+				D335599129DBFC4800B2810D /* FMDB.h */,
+				D335599429DBFC4800B2810D /* FMResultSet.h */,
+				D335599029DBFC4800B2810D /* FMResultSet.m */,
 				D335597829DBFB6500B2810D /* AppDelegate.swift */,
 				D335597A29DBFB6500B2810D /* SceneDelegate.swift */,
 				D335597C29DBFB6500B2810D /* ViewController.swift */,
+				D335599D29DBFC6000B2810D /* dbms.swift */,
 				D335597E29DBFB6500B2810D /* Main.storyboard */,
+				D33456D0407E458800705B98 /* ViewController2.swift */,
 				D335598129DBFB6600B2810D /* Assets.xcassets */,
 				D335598329DBFB6600B2810D /* LaunchScreen.storyboard */,
 				D335598629DBFB6600B2810D /* Info.plist */,
+				D335598C29DBFC4700B2810D /* fbms day2 _4_4_2023-Bridging-Header.h */,
 			);
 			path = "fbms day2 _4_4_2023";
 			sourceTree = "<group>";
@@ -99,6 +137,7 @@
 				TargetAttributes = {
 					D335597429DBFB6400B2810D = {
 						CreatedOnToolsVersion = 13.0;
+						LastSwiftMigration = 1300;
 					};
 				};
 			};
@@ -139,8 +178,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				D335597D29DBFB6500B2810D /* ViewController.swift in Sources */,
+				D335599C29DBFC4900B2810D /* FMDatabaseQueue.m in Sources */,
+				D335599829DBFC4900B2810D /* FMDatabasePool.m in Sources */,
+				D33456D3407E463E00705B98 /* MyTableViewCell.swift in Sources */,
+				D335599E29DBFC6000B2810D /* dbms.swift in Sources */,
 				D335597929DBFB6500B2810D /* AppDelegate.swift in Sources */,
+				D33456D1407E458800705B98 /* ViewController2.swift in Sources */,
+				D335599B29DBFC4900B2810D /* FMDatabase.m in Sources */,
 				D335597B29DBFB6500B2810D /* SceneDelegate.swift in Sources */,
+				D335599929DBFC4900B2810D /* FMResultSet.m in Sources */,
+				D335599A29DBFC4900B2810D /* FMDatabaseAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +334,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -304,6 +352,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "collection.fbms-day2--4-4-2023";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "fbms day2 _4_4_2023/fbms day2 _4_4_2023-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -314,6 +364,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -331,6 +382,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "collection.fbms-day2--4-4-2023";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "fbms day2 _4_4_2023/fbms day2 _4_4_2023-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
